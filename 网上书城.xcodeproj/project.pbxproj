@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D6DB6AE1D93933300CFCFBB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6DB6AD1D93933300CFCFBB /* main.m */; };
+		3D6DB6B11D93933300CFCFBB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6DB6B01D93933300CFCFBB /* AppDelegate.m */; };
+		3D6DB6B41D93933300CFCFBB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6DB6B31D93933300CFCFBB /* ViewController.m */; };
+		3D6DB6B71D93933300CFCFBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D6DB6B51D93933300CFCFBB /* Main.storyboard */; };
+		3D6DB6B91D93933300CFCFBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D6DB6B81D93933300CFCFBB /* Assets.xcassets */; };
+		3D6DB6BC1D93933300CFCFBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D6DB6BA1D93933300CFCFBB /* LaunchScreen.storyboard */; };
+		3D6DB6C71D93933300CFCFBB /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6DB6C61D93933300CFCFBB /* ____Tests.m */; };
+		3D6DB6D21D93933300CFCFBB /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6DB6D11D93933300CFCFBB /* ____UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D6DB6C31D93933300CFCFBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D6DB6A11D93933300CFCFBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D6DB6A81D93933300CFCFBB;
+			remoteInfo = "网上书城";
+		};
+		3D6DB6CE1D93933300CFCFBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D6DB6A11D93933300CFCFBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D6DB6A81D93933300CFCFBB;
+			remoteInfo = "网上书城";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D6DB6A91D93933300CFCFBB /* 网上书城.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "网上书城.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D6DB6AD1D93933300CFCFBB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3D6DB6AF1D93933300CFCFBB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3D6DB6B01D93933300CFCFBB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3D6DB6B21D93933300CFCFBB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3D6DB6B31D93933300CFCFBB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3D6DB6B61D93933300CFCFBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D6DB6B81D93933300CFCFBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D6DB6BB1D93933300CFCFBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D6DB6BD1D93933300CFCFBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D6DB6C21D93933300CFCFBB /* 网上书城Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "网上书城Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D6DB6C61D93933300CFCFBB /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
+		3D6DB6C81D93933300CFCFBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D6DB6CD1D93933300CFCFBB /* 网上书城UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "网上书城UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D6DB6D11D93933300CFCFBB /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
+		3D6DB6D31D93933300CFCFBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D6DB6A61D93933300CFCFBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D6DB6BF1D93933300CFCFBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D6DB6CA1D93933300CFCFBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D6DB6A01D93933300CFCFBB = {
+			isa = PBXGroup;
+			children = (
+				3D6DB6AB1D93933300CFCFBB /* 网上书城 */,
+				3D6DB6C51D93933300CFCFBB /* 网上书城Tests */,
+				3D6DB6D01D93933300CFCFBB /* 网上书城UITests */,
+				3D6DB6AA1D93933300CFCFBB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D6DB6AA1D93933300CFCFBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D6DB6A91D93933300CFCFBB /* 网上书城.app */,
+				3D6DB6C21D93933300CFCFBB /* 网上书城Tests.xctest */,
+				3D6DB6CD1D93933300CFCFBB /* 网上书城UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D6DB6AB1D93933300CFCFBB /* 网上书城 */ = {
+			isa = PBXGroup;
+			children = (
+				3D6DB6AF1D93933300CFCFBB /* AppDelegate.h */,
+				3D6DB6B01D93933300CFCFBB /* AppDelegate.m */,
+				3D6DB6B21D93933300CFCFBB /* ViewController.h */,
+				3D6DB6B31D93933300CFCFBB /* ViewController.m */,
+				3D6DB6B51D93933300CFCFBB /* Main.storyboard */,
+				3D6DB6B81D93933300CFCFBB /* Assets.xcassets */,
+				3D6DB6BA1D93933300CFCFBB /* LaunchScreen.storyboard */,
+				3D6DB6BD1D93933300CFCFBB /* Info.plist */,
+				3D6DB6AC1D93933300CFCFBB /* Supporting Files */,
+			);
+			path = "网上书城";
+			sourceTree = "<group>";
+		};
+		3D6DB6AC1D93933300CFCFBB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D6DB6AD1D93933300CFCFBB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3D6DB6C51D93933300CFCFBB /* 网上书城Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3D6DB6C61D93933300CFCFBB /* ____Tests.m */,
+				3D6DB6C81D93933300CFCFBB /* Info.plist */,
+			);
+			path = "网上书城Tests";
+			sourceTree = "<group>";
+		};
+		3D6DB6D01D93933300CFCFBB /* 网上书城UITests */ = {
+			isa = PBXGroup;
+			children = (
+				3D6DB6D11D93933300CFCFBB /* ____UITests.m */,
+				3D6DB6D31D93933300CFCFBB /* Info.plist */,
+			);
+			path = "网上书城UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D6DB6A81D93933300CFCFBB /* 网上书城 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D6DB6D61D93933300CFCFBB /* Build configuration list for PBXNativeTarget "网上书城" */;
+			buildPhases = (
+				3D6DB6A51D93933300CFCFBB /* Sources */,
+				3D6DB6A61D93933300CFCFBB /* Frameworks */,
+				3D6DB6A71D93933300CFCFBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "网上书城";
+			productName = "网上书城";
+			productReference = 3D6DB6A91D93933300CFCFBB /* 网上书城.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D6DB6C11D93933300CFCFBB /* 网上书城Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D6DB6D91D93933300CFCFBB /* Build configuration list for PBXNativeTarget "网上书城Tests" */;
+			buildPhases = (
+				3D6DB6BE1D93933300CFCFBB /* Sources */,
+				3D6DB6BF1D93933300CFCFBB /* Frameworks */,
+				3D6DB6C01D93933300CFCFBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D6DB6C41D93933300CFCFBB /* PBXTargetDependency */,
+			);
+			name = "网上书城Tests";
+			productName = "网上书城Tests";
+			productReference = 3D6DB6C21D93933300CFCFBB /* 网上书城Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3D6DB6CC1D93933300CFCFBB /* 网上书城UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D6DB6DC1D93933300CFCFBB /* Build configuration list for PBXNativeTarget "网上书城UITests" */;
+			buildPhases = (
+				3D6DB6C91D93933300CFCFBB /* Sources */,
+				3D6DB6CA1D93933300CFCFBB /* Frameworks */,
+				3D6DB6CB1D93933300CFCFBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D6DB6CF1D93933300CFCFBB /* PBXTargetDependency */,
+			);
+			name = "网上书城UITests";
+			productName = "网上书城UITests";
+			productReference = 3D6DB6CD1D93933300CFCFBB /* 网上书城UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D6DB6A11D93933300CFCFBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = wumiaomiao;
+				TargetAttributes = {
+					3D6DB6A81D93933300CFCFBB = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = TC9GBWB632;
+						ProvisioningStyle = Automatic;
+					};
+					3D6DB6C11D93933300CFCFBB = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = TC9GBWB632;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3D6DB6A81D93933300CFCFBB;
+					};
+					3D6DB6CC1D93933300CFCFBB = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = TC9GBWB632;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3D6DB6A81D93933300CFCFBB;
+					};
+				};
+			};
+			buildConfigurationList = 3D6DB6A41D93933300CFCFBB /* Build configuration list for PBXProject "网上书城" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D6DB6A01D93933300CFCFBB;
+			productRefGroup = 3D6DB6AA1D93933300CFCFBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D6DB6A81D93933300CFCFBB /* 网上书城 */,
+				3D6DB6C11D93933300CFCFBB /* 网上书城Tests */,
+				3D6DB6CC1D93933300CFCFBB /* 网上书城UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D6DB6A71D93933300CFCFBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D6DB6BC1D93933300CFCFBB /* LaunchScreen.storyboard in Resources */,
+				3D6DB6B91D93933300CFCFBB /* Assets.xcassets in Resources */,
+				3D6DB6B71D93933300CFCFBB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D6DB6C01D93933300CFCFBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D6DB6CB1D93933300CFCFBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D6DB6A51D93933300CFCFBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D6DB6B41D93933300CFCFBB /* ViewController.m in Sources */,
+				3D6DB6B11D93933300CFCFBB /* AppDelegate.m in Sources */,
+				3D6DB6AE1D93933300CFCFBB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D6DB6BE1D93933300CFCFBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D6DB6C71D93933300CFCFBB /* ____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D6DB6C91D93933300CFCFBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D6DB6D21D93933300CFCFBB /* ____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D6DB6C41D93933300CFCFBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D6DB6A81D93933300CFCFBB /* 网上书城 */;
+			targetProxy = 3D6DB6C31D93933300CFCFBB /* PBXContainerItemProxy */;
+		};
+		3D6DB6CF1D93933300CFCFBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D6DB6A81D93933300CFCFBB /* 网上书城 */;
+			targetProxy = 3D6DB6CE1D93933300CFCFBB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3D6DB6B51D93933300CFCFBB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D6DB6B61D93933300CFCFBB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D6DB6BA1D93933300CFCFBB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D6DB6BB1D93933300CFCFBB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D6DB6D41D93933300CFCFBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D6DB6D51D93933300CFCFBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D6DB6D71D93933300CFCFBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TC9GBWB632;
+				INFOPLIST_FILE = "网上书城/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3D6DB6D81D93933300CFCFBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TC9GBWB632;
+				INFOPLIST_FILE = "网上书城/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3D6DB6DA1D93933300CFCFBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = TC9GBWB632;
+				INFOPLIST_FILE = "网上书城Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/网上书城.app/网上书城";
+			};
+			name = Debug;
+		};
+		3D6DB6DB1D93933300CFCFBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = TC9GBWB632;
+				INFOPLIST_FILE = "网上书城Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/网上书城.app/网上书城";
+			};
+			name = Release;
+		};
+		3D6DB6DD1D93933300CFCFBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = TC9GBWB632;
+				INFOPLIST_FILE = "网上书城UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "网上书城";
+			};
+			name = Debug;
+		};
+		3D6DB6DE1D93933300CFCFBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = TC9GBWB632;
+				INFOPLIST_FILE = "网上书城UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "网上书城";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D6DB6A41D93933300CFCFBB /* Build configuration list for PBXProject "网上书城" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D6DB6D41D93933300CFCFBB /* Debug */,
+				3D6DB6D51D93933300CFCFBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D6DB6D61D93933300CFCFBB /* Build configuration list for PBXNativeTarget "网上书城" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D6DB6D71D93933300CFCFBB /* Debug */,
+				3D6DB6D81D93933300CFCFBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3D6DB6D91D93933300CFCFBB /* Build configuration list for PBXNativeTarget "网上书城Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D6DB6DA1D93933300CFCFBB /* Debug */,
+				3D6DB6DB1D93933300CFCFBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3D6DB6DC1D93933300CFCFBB /* Build configuration list for PBXNativeTarget "网上书城UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D6DB6DD1D93933300CFCFBB /* Debug */,
+				3D6DB6DE1D93933300CFCFBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D6DB6A11D93933300CFCFBB /* Project object */;
+}

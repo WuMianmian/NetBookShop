@@ -7,14 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D0771541DBF7D0300F523F6 /* BooksLIstTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0771531DBF7D0300F523F6 /* BooksLIstTableViewController.m */; };
+		3D07715B1DBF908600F523F6 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D07715A1DBF908600F523F6 /* LoginViewController.m */; };
+		3D07715E1DBF972400F523F6 /* UserInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D07715D1DBF972400F523F6 /* UserInfoViewController.m */; };
+		3D0771611DBFA80F00F523F6 /* UserOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0771601DBFA80F00F523F6 /* UserOrderViewController.m */; };
+		3D07717C1DBFC24200F523F6 /* SetupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D07717B1DBFC24200F523F6 /* SetupViewController.m */; };
+		3D0FE0331DD5B338002417CE /* ConfirmBookOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0FE0321DD5B338002417CE /* ConfirmBookOrderViewController.m */; };
+		3D3845891DD08D19008E02A6 /* OrderTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3845881DD08D19008E02A6 /* OrderTableViewController.m */; };
+		3D38458C1DD08D28008E02A6 /* OrderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D38458B1DD08D28008E02A6 /* OrderTableViewCell.m */; };
+		3D60A90E1DCF59B9003091D8 /* CategoryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D60A90D1DCF59B9003091D8 /* CategoryTableViewController.m */; };
+		3D60A9111DCF60B3003091D8 /* CategoryWithBooksTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D60A9101DCF60B3003091D8 /* CategoryWithBooksTableViewController.m */; };
+		3D60A9141DCF683D003091D8 /* BookDescribeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D60A9131DCF683D003091D8 /* BookDescribeViewController.m */; };
+		3D60A91B1DCF6EDB003091D8 /* ShoppingCarTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D60A91A1DCF6EDB003091D8 /* ShoppingCarTableViewController.m */; };
+		3D60A91E1DCF6F03003091D8 /* ShoppingCarTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D60A91D1DCF6F03003091D8 /* ShoppingCarTableViewCell.m */; };
 		3D6DB6AE1D93933300CFCFBB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6DB6AD1D93933300CFCFBB /* main.m */; };
 		3D6DB6B11D93933300CFCFBB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6DB6B01D93933300CFCFBB /* AppDelegate.m */; };
 		3D6DB6B41D93933300CFCFBB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6DB6B31D93933300CFCFBB /* ViewController.m */; };
-		3D6DB6B71D93933300CFCFBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D6DB6B51D93933300CFCFBB /* Main.storyboard */; };
 		3D6DB6B91D93933300CFCFBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D6DB6B81D93933300CFCFBB /* Assets.xcassets */; };
 		3D6DB6BC1D93933300CFCFBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D6DB6BA1D93933300CFCFBB /* LaunchScreen.storyboard */; };
 		3D6DB6C71D93933300CFCFBB /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6DB6C61D93933300CFCFBB /* ____Tests.m */; };
 		3D6DB6D21D93933300CFCFBB /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6DB6D11D93933300CFCFBB /* ____UITests.m */; };
+		3D7BD61D1DD0EE2C00E370E3 /* ToolController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D7BD61C1DD0EE2C00E370E3 /* ToolController.m */; };
+		3D7BD6201DD18CA800E370E3 /* UserDetailInfoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D7BD61F1DD18CA800E370E3 /* UserDetailInfoTableViewController.m */; };
+		3D86E9441DD34E6600A864CD /* area.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3D86E9431DD34E6600A864CD /* area.plist */; };
+		3D86E9461DD3516400A864CD /* provinces_cities.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3D86E9451DD3516400A864CD /* provinces_cities.plist */; };
+		3D87148E1DBBBF9400CE1B11 /* BookListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D87148D1DBBBF9400CE1B11 /* BookListTableViewCell.m */; };
+		3DE17FB51DD071A80037C461 /* AlterMyAddressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE17FB41DD071A80037C461 /* AlterMyAddressViewController.m */; };
+		3DE34B8F1DC0535F0051AD87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DE34B8D1DC0535F0051AD87 /* Main.storyboard */; };
+		3DE34B941DC057AB0051AD87 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE34B931DC057AB0051AD87 /* HomeViewController.m */; };
+		3DE34B971DC061F00051AD87 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE34B961DC061F00051AD87 /* RegisterViewController.m */; };
+		3DE34B9A1DC07E270051AD87 /* MyOrderListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE34B991DC07E270051AD87 /* MyOrderListViewController.m */; };
+		3DE34B9E1DC07EA00051AD87 /* MyOrderListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE34B9D1DC07EA00051AD87 /* MyOrderListTableViewCell.m */; };
+		3DE34BA21DC0848C0051AD87 /* AddressListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE34BA11DC0848C0051AD87 /* AddressListTableViewCell.m */; };
+		3DE34BA51DC084AB0051AD87 /* AddressListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE34BA41DC084AB0051AD87 /* AddressListViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,13 +60,38 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3D0771521DBF7D0300F523F6 /* BooksLIstTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BooksLIstTableViewController.h; sourceTree = "<group>"; };
+		3D0771531DBF7D0300F523F6 /* BooksLIstTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BooksLIstTableViewController.m; sourceTree = "<group>"; };
+		3D0771591DBF908600F523F6 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		3D07715A1DBF908600F523F6 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		3D07715C1DBF972400F523F6 /* UserInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfoViewController.h; sourceTree = "<group>"; };
+		3D07715D1DBF972400F523F6 /* UserInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfoViewController.m; sourceTree = "<group>"; };
+		3D07715F1DBFA80F00F523F6 /* UserOrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserOrderViewController.h; sourceTree = "<group>"; };
+		3D0771601DBFA80F00F523F6 /* UserOrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserOrderViewController.m; sourceTree = "<group>"; };
+		3D07717A1DBFC24200F523F6 /* SetupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetupViewController.h; sourceTree = "<group>"; };
+		3D07717B1DBFC24200F523F6 /* SetupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetupViewController.m; sourceTree = "<group>"; };
+		3D0FE0311DD5B338002417CE /* ConfirmBookOrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfirmBookOrderViewController.h; sourceTree = "<group>"; };
+		3D0FE0321DD5B338002417CE /* ConfirmBookOrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfirmBookOrderViewController.m; sourceTree = "<group>"; };
+		3D3845871DD08D19008E02A6 /* OrderTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderTableViewController.h; sourceTree = "<group>"; };
+		3D3845881DD08D19008E02A6 /* OrderTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderTableViewController.m; sourceTree = "<group>"; };
+		3D38458A1DD08D28008E02A6 /* OrderTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderTableViewCell.h; sourceTree = "<group>"; };
+		3D38458B1DD08D28008E02A6 /* OrderTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderTableViewCell.m; sourceTree = "<group>"; };
+		3D60A90C1DCF59B9003091D8 /* CategoryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryTableViewController.h; sourceTree = "<group>"; };
+		3D60A90D1DCF59B9003091D8 /* CategoryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryTableViewController.m; sourceTree = "<group>"; };
+		3D60A90F1DCF60B3003091D8 /* CategoryWithBooksTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryWithBooksTableViewController.h; sourceTree = "<group>"; };
+		3D60A9101DCF60B3003091D8 /* CategoryWithBooksTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryWithBooksTableViewController.m; sourceTree = "<group>"; };
+		3D60A9121DCF683D003091D8 /* BookDescribeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookDescribeViewController.h; sourceTree = "<group>"; };
+		3D60A9131DCF683D003091D8 /* BookDescribeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookDescribeViewController.m; sourceTree = "<group>"; };
+		3D60A9191DCF6EDB003091D8 /* ShoppingCarTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoppingCarTableViewController.h; sourceTree = "<group>"; };
+		3D60A91A1DCF6EDB003091D8 /* ShoppingCarTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingCarTableViewController.m; sourceTree = "<group>"; };
+		3D60A91C1DCF6F03003091D8 /* ShoppingCarTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoppingCarTableViewCell.h; sourceTree = "<group>"; };
+		3D60A91D1DCF6F03003091D8 /* ShoppingCarTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingCarTableViewCell.m; sourceTree = "<group>"; };
 		3D6DB6A91D93933300CFCFBB /* 网上书城.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "网上书城.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D6DB6AD1D93933300CFCFBB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3D6DB6AF1D93933300CFCFBB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3D6DB6B01D93933300CFCFBB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3D6DB6B21D93933300CFCFBB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		3D6DB6B31D93933300CFCFBB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		3D6DB6B61D93933300CFCFBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3D6DB6B81D93933300CFCFBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D6DB6BB1D93933300CFCFBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D6DB6BD1D93933300CFCFBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +101,30 @@
 		3D6DB6CD1D93933300CFCFBB /* 网上书城UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "网上书城UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D6DB6D11D93933300CFCFBB /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		3D6DB6D31D93933300CFCFBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D6DB6E91D93999600CFCFBB /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		3D7BD61B1DD0EE2C00E370E3 /* ToolController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToolController.h; sourceTree = "<group>"; };
+		3D7BD61C1DD0EE2C00E370E3 /* ToolController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToolController.m; sourceTree = "<group>"; };
+		3D7BD61E1DD18CA800E370E3 /* UserDetailInfoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDetailInfoTableViewController.h; sourceTree = "<group>"; };
+		3D7BD61F1DD18CA800E370E3 /* UserDetailInfoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDetailInfoTableViewController.m; sourceTree = "<group>"; };
+		3D86E9431DD34E6600A864CD /* area.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = area.plist; sourceTree = "<group>"; };
+		3D86E9451DD3516400A864CD /* provinces_cities.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = provinces_cities.plist; sourceTree = "<group>"; };
+		3D87148C1DBBBF9400CE1B11 /* BookListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookListTableViewCell.h; sourceTree = "<group>"; };
+		3D87148D1DBBBF9400CE1B11 /* BookListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookListTableViewCell.m; sourceTree = "<group>"; };
+		3DE17FB31DD071A80037C461 /* AlterMyAddressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlterMyAddressViewController.h; sourceTree = "<group>"; };
+		3DE17FB41DD071A80037C461 /* AlterMyAddressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlterMyAddressViewController.m; sourceTree = "<group>"; };
+		3DE34B8E1DC0535F0051AD87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3DE34B921DC057AB0051AD87 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		3DE34B931DC057AB0051AD87 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		3DE34B951DC061F00051AD87 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		3DE34B961DC061F00051AD87 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		3DE34B981DC07E270051AD87 /* MyOrderListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyOrderListViewController.h; sourceTree = "<group>"; };
+		3DE34B991DC07E270051AD87 /* MyOrderListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyOrderListViewController.m; sourceTree = "<group>"; };
+		3DE34B9C1DC07EA00051AD87 /* MyOrderListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyOrderListTableViewCell.h; sourceTree = "<group>"; };
+		3DE34B9D1DC07EA00051AD87 /* MyOrderListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyOrderListTableViewCell.m; sourceTree = "<group>"; };
+		3DE34BA01DC0848C0051AD87 /* AddressListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressListTableViewCell.h; sourceTree = "<group>"; };
+		3DE34BA11DC0848C0051AD87 /* AddressListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressListTableViewCell.m; sourceTree = "<group>"; };
+		3DE34BA31DC084AB0051AD87 /* AddressListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressListViewController.h; sourceTree = "<group>"; };
+		3DE34BA41DC084AB0051AD87 /* AddressListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressListViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +152,66 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D0771511DBF7CE300F523F6 /* BooksList */ = {
+			isa = PBXGroup;
+			children = (
+				3D87148C1DBBBF9400CE1B11 /* BookListTableViewCell.h */,
+				3D87148D1DBBBF9400CE1B11 /* BookListTableViewCell.m */,
+				3D0771521DBF7D0300F523F6 /* BooksLIstTableViewController.h */,
+				3D0771531DBF7D0300F523F6 /* BooksLIstTableViewController.m */,
+				3D60A90C1DCF59B9003091D8 /* CategoryTableViewController.h */,
+				3D60A90D1DCF59B9003091D8 /* CategoryTableViewController.m */,
+				3D60A90F1DCF60B3003091D8 /* CategoryWithBooksTableViewController.h */,
+				3D60A9101DCF60B3003091D8 /* CategoryWithBooksTableViewController.m */,
+				3D60A9121DCF683D003091D8 /* BookDescribeViewController.h */,
+				3D60A9131DCF683D003091D8 /* BookDescribeViewController.m */,
+				3D0FE0311DD5B338002417CE /* ConfirmBookOrderViewController.h */,
+				3D0FE0321DD5B338002417CE /* ConfirmBookOrderViewController.m */,
+			);
+			name = BooksList;
+			sourceTree = "<group>";
+		};
+		3D0771551DBF8FB400F523F6 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				3D0771591DBF908600F523F6 /* LoginViewController.h */,
+				3D07715A1DBF908600F523F6 /* LoginViewController.m */,
+				3D07715C1DBF972400F523F6 /* UserInfoViewController.h */,
+				3D07715D1DBF972400F523F6 /* UserInfoViewController.m */,
+				3D07715F1DBFA80F00F523F6 /* UserOrderViewController.h */,
+				3D0771601DBFA80F00F523F6 /* UserOrderViewController.m */,
+				3D07717A1DBFC24200F523F6 /* SetupViewController.h */,
+				3D07717B1DBFC24200F523F6 /* SetupViewController.m */,
+				3DE34B951DC061F00051AD87 /* RegisterViewController.h */,
+				3DE34B961DC061F00051AD87 /* RegisterViewController.m */,
+				3D7BD61E1DD18CA800E370E3 /* UserDetailInfoTableViewController.h */,
+				3D7BD61F1DD18CA800E370E3 /* UserDetailInfoTableViewController.m */,
+			);
+			name = User;
+			sourceTree = "<group>";
+		};
+		3D3845861DD08D0B008E02A6 /* Order */ = {
+			isa = PBXGroup;
+			children = (
+				3D3845871DD08D19008E02A6 /* OrderTableViewController.h */,
+				3D3845881DD08D19008E02A6 /* OrderTableViewController.m */,
+				3D38458A1DD08D28008E02A6 /* OrderTableViewCell.h */,
+				3D38458B1DD08D28008E02A6 /* OrderTableViewCell.m */,
+			);
+			name = Order;
+			sourceTree = "<group>";
+		};
+		3D60A9151DCF6EBD003091D8 /* ShoppingCar */ = {
+			isa = PBXGroup;
+			children = (
+				3D60A9191DCF6EDB003091D8 /* ShoppingCarTableViewController.h */,
+				3D60A91A1DCF6EDB003091D8 /* ShoppingCarTableViewController.m */,
+				3D60A91C1DCF6F03003091D8 /* ShoppingCarTableViewCell.h */,
+				3D60A91D1DCF6F03003091D8 /* ShoppingCarTableViewCell.m */,
+			);
+			name = ShoppingCar;
+			sourceTree = "<group>";
+		};
 		3D6DB6A01D93933300CFCFBB = {
 			isa = PBXGroup;
 			children = (
@@ -101,14 +235,25 @@
 		3D6DB6AB1D93933300CFCFBB /* 网上书城 */ = {
 			isa = PBXGroup;
 			children = (
+				3D7BD6171DD0EC8700E370E3 /* Tool */,
+				3D3845861DD08D0B008E02A6 /* Order */,
+				3D60A9151DCF6EBD003091D8 /* ShoppingCar */,
+				3DE34B9F1DC084410051AD87 /* AddressList */,
+				3DE34B9B1DC07E3A0051AD87 /* OrderList */,
+				3DE34B901DC057860051AD87 /* Home */,
+				3D0771551DBF8FB400F523F6 /* User */,
+				3D0771511DBF7CE300F523F6 /* BooksList */,
+				3D6DB6EA1D939E7000CFCFBB /* RightPage */,
 				3D6DB6AF1D93933300CFCFBB /* AppDelegate.h */,
 				3D6DB6B01D93933300CFCFBB /* AppDelegate.m */,
 				3D6DB6B21D93933300CFCFBB /* ViewController.h */,
 				3D6DB6B31D93933300CFCFBB /* ViewController.m */,
-				3D6DB6B51D93933300CFCFBB /* Main.storyboard */,
 				3D6DB6B81D93933300CFCFBB /* Assets.xcassets */,
 				3D6DB6BA1D93933300CFCFBB /* LaunchScreen.storyboard */,
+				3DE34B8D1DC0535F0051AD87 /* Main.storyboard */,
 				3D6DB6BD1D93933300CFCFBB /* Info.plist */,
+				3D86E9431DD34E6600A864CD /* area.plist */,
+				3D86E9451DD3516400A864CD /* provinces_cities.plist */,
 				3D6DB6AC1D93933300CFCFBB /* Supporting Files */,
 			);
 			path = "网上书城";
@@ -118,6 +263,7 @@
 			isa = PBXGroup;
 			children = (
 				3D6DB6AD1D93933300CFCFBB /* main.m */,
+				3D6DB6E91D93999600CFCFBB /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -138,6 +284,55 @@
 				3D6DB6D31D93933300CFCFBB /* Info.plist */,
 			);
 			path = "网上书城UITests";
+			sourceTree = "<group>";
+		};
+		3D6DB6EA1D939E7000CFCFBB /* RightPage */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = RightPage;
+			sourceTree = "<group>";
+		};
+		3D7BD6171DD0EC8700E370E3 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				3D7BD61B1DD0EE2C00E370E3 /* ToolController.h */,
+				3D7BD61C1DD0EE2C00E370E3 /* ToolController.m */,
+			);
+			name = Tool;
+			sourceTree = "<group>";
+		};
+		3DE34B901DC057860051AD87 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				3DE34B921DC057AB0051AD87 /* HomeViewController.h */,
+				3DE34B931DC057AB0051AD87 /* HomeViewController.m */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		3DE34B9B1DC07E3A0051AD87 /* OrderList */ = {
+			isa = PBXGroup;
+			children = (
+				3DE34B981DC07E270051AD87 /* MyOrderListViewController.h */,
+				3DE34B991DC07E270051AD87 /* MyOrderListViewController.m */,
+				3DE34B9C1DC07EA00051AD87 /* MyOrderListTableViewCell.h */,
+				3DE34B9D1DC07EA00051AD87 /* MyOrderListTableViewCell.m */,
+			);
+			name = OrderList;
+			sourceTree = "<group>";
+		};
+		3DE34B9F1DC084410051AD87 /* AddressList */ = {
+			isa = PBXGroup;
+			children = (
+				3DE34BA01DC0848C0051AD87 /* AddressListTableViewCell.h */,
+				3DE34BA11DC0848C0051AD87 /* AddressListTableViewCell.m */,
+				3DE34BA31DC084AB0051AD87 /* AddressListViewController.h */,
+				3DE34BA41DC084AB0051AD87 /* AddressListViewController.m */,
+				3DE17FB31DD071A80037C461 /* AlterMyAddressViewController.h */,
+				3DE17FB41DD071A80037C461 /* AlterMyAddressViewController.m */,
+			);
+			name = AddressList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,9 +444,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DE34B8F1DC0535F0051AD87 /* Main.storyboard in Resources */,
+				3D86E9441DD34E6600A864CD /* area.plist in Resources */,
 				3D6DB6BC1D93933300CFCFBB /* LaunchScreen.storyboard in Resources */,
 				3D6DB6B91D93933300CFCFBB /* Assets.xcassets in Resources */,
-				3D6DB6B71D93933300CFCFBB /* Main.storyboard in Resources */,
+				3D86E9461DD3516400A864CD /* provinces_cities.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,9 +473,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DE34B971DC061F00051AD87 /* RegisterViewController.m in Sources */,
 				3D6DB6B41D93933300CFCFBB /* ViewController.m in Sources */,
+				3D60A91E1DCF6F03003091D8 /* ShoppingCarTableViewCell.m in Sources */,
+				3DE34B9E1DC07EA00051AD87 /* MyOrderListTableViewCell.m in Sources */,
 				3D6DB6B11D93933300CFCFBB /* AppDelegate.m in Sources */,
+				3D38458C1DD08D28008E02A6 /* OrderTableViewCell.m in Sources */,
+				3D0FE0331DD5B338002417CE /* ConfirmBookOrderViewController.m in Sources */,
+				3DE34BA21DC0848C0051AD87 /* AddressListTableViewCell.m in Sources */,
+				3DE34B9A1DC07E270051AD87 /* MyOrderListViewController.m in Sources */,
+				3D07715B1DBF908600F523F6 /* LoginViewController.m in Sources */,
+				3DE34B941DC057AB0051AD87 /* HomeViewController.m in Sources */,
+				3D60A91B1DCF6EDB003091D8 /* ShoppingCarTableViewController.m in Sources */,
+				3D7BD6201DD18CA800E370E3 /* UserDetailInfoTableViewController.m in Sources */,
 				3D6DB6AE1D93933300CFCFBB /* main.m in Sources */,
+				3D87148E1DBBBF9400CE1B11 /* BookListTableViewCell.m in Sources */,
+				3DE17FB51DD071A80037C461 /* AlterMyAddressViewController.m in Sources */,
+				3D07715E1DBF972400F523F6 /* UserInfoViewController.m in Sources */,
+				3D0771611DBFA80F00F523F6 /* UserOrderViewController.m in Sources */,
+				3D60A9141DCF683D003091D8 /* BookDescribeViewController.m in Sources */,
+				3D07717C1DBFC24200F523F6 /* SetupViewController.m in Sources */,
+				3D60A9111DCF60B3003091D8 /* CategoryWithBooksTableViewController.m in Sources */,
+				3D3845891DD08D19008E02A6 /* OrderTableViewController.m in Sources */,
+				3D60A90E1DCF59B9003091D8 /* CategoryTableViewController.m in Sources */,
+				3D0771541DBF7D0300F523F6 /* BooksLIstTableViewController.m in Sources */,
+				3DE34BA51DC084AB0051AD87 /* AddressListViewController.m in Sources */,
+				3D7BD61D1DD0EE2C00E370E3 /* ToolController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,20 +534,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3D6DB6B51D93933300CFCFBB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3D6DB6B61D93933300CFCFBB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3D6DB6BA1D93933300CFCFBB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				3D6DB6BB1D93933300CFCFBB /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3DE34B8D1DC0535F0051AD87 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DE34B8E1DC0535F0051AD87 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -357,6 +577,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -373,7 +594,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -405,6 +626,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -415,7 +637,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -428,9 +650,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = TC9GBWB632;
+				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = "网上书城/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "---.----";
+				PRODUCT_BUNDLE_IDENTIFIER = "test-1.-1-OCtoSwift-DeleteAddCell";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -440,9 +663,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = TC9GBWB632;
+				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = "网上书城/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "---.----";
+				PRODUCT_BUNDLE_IDENTIFIER = "test-1.-1-OCtoSwift-DeleteAddCell";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -516,6 +740,7 @@
 				3D6DB6D81D93933300CFCFBB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3D6DB6D91D93933300CFCFBB /* Build configuration list for PBXNativeTarget "网上书城Tests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +749,7 @@
 				3D6DB6DB1D93933300CFCFBB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3D6DB6DC1D93933300CFCFBB /* Build configuration list for PBXNativeTarget "网上书城UITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +758,7 @@
 				3D6DB6DE1D93933300CFCFBB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

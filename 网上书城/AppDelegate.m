@@ -7,8 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "WXApi.h"
 
-@interface AppDelegate ()
+@interface AppDelegate ()<WXApiDelegate>
 
 @end
 
@@ -17,6 +18,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    //sleep(2);
+//    [NSThread sleepForTimeInterval:3.0];
+//    [WXApi registerApp:@"wxd1931d4a0e46****" withDescription:@"Wechat"];
+    [WXApi registerApp:@"wx"];
+//    sleep(5);
     return YES;
 }
 
@@ -47,5 +53,10 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
-
+// 这个方法是用于从微信返回第三方App
+- (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url {
+    
+    [WXApi handleOpenURL:url delegate:self];
+    return YES;
+}
 @end

@@ -9,6 +9,7 @@
 #import "CategoryWithBooksTableViewController.h"
 #import "BookListTableViewCell.h"
 #import "ToolController.h"
+#import "Contents.h"
 
 @interface CategoryWithBooksTableViewController ()
 @property(nonatomic,strong)NSMutableArray* allBooksDataArr;
@@ -21,9 +22,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    //    // 导航栏的那些事
+    //    [self.navigationController.navigationBar setTitleTextAttributes:
+    //     @{NSFontAttributeName:[UIFont systemFontOfSize:19],
+    //       NSForegroundColorAttributeName:[UIColor whiteColor]}];
+    //    self.navigationController.navigationBar.tintColor  = [UIColor whiteColor];
+    
     NSUserDefaults *CategoryDefault = [NSUserDefaults standardUserDefaults];
     NSString *categoryId = [CategoryDefault objectForKey:@"CategoryId"];
-//    NSLog(@"get id is -------->%@",categoryId);
+    //    NSLog(@"get id is -------->%@",categoryId);
     
     ToolController *tool;
     tool = [[ToolController alloc]init];
@@ -50,7 +57,7 @@
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     
     NSUInteger row = [indexPath row];
-//    NSLog(@" you click this %lu row",(unsigned long)row);
+    //    NSLog(@" you click this %lu row",(unsigned long)row);
     NSDictionary *EachBooksData=[self.allBooksDataArr objectAtIndex:row];
     //获取Default单例
     NSUserDefaults *bookISBNDefault = [NSUserDefaults standardUserDefaults];
@@ -74,12 +81,12 @@
     
     NSDictionary *EachBooksData=[self.allBooksDataArr objectAtIndex:row];
     
-    NSString *imgUrlStr =[NSString stringWithFormat:@"http://192.168.0.137:8080/NetBookShop/images/%@",[EachBooksData objectForKey:@"bookImageId"]];
+    NSString *imgUrlStr =[NSString stringWithFormat:@"%@/images/%@",Contents.getContentsUrl,[EachBooksData objectForKey:@"bookImageId"]];
     UIImage *image = [UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:imgUrlStr]]];
     [cell.BookImageUrl setImage:image];
     
     cell.BookName.text = [EachBooksData objectForKey:@"bookChineseName"];
-//    NSLog(@"%@",[EachBooksData objectForKey:@"bookName"]);
+    //    NSLog(@"%@",[EachBooksData objectForKey:@"bookName"]);
     cell.BookPrice.text =[NSString localizedStringWithFormat:@"%@",[EachBooksData objectForKey:@"bookPrice"]];
     cell.BookWriter.text = [EachBooksData objectForKey:@"bookWriter"];
     cell.BookDescride.text = [EachBooksData objectForKey:@"bookDescribe"];

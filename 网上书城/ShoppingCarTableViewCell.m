@@ -29,13 +29,13 @@
     NSNumber *numberFromStr = [numberFormatter numberFromString:self.txtbookNumber.text];
     int intNumber = [numberFromStr intValue];
     if(intNumber > 0){
-    self.txtbookNumber.text = [NSString stringWithFormat:@"%d",intNumber--];
+        self.txtbookNumber.text = [NSString stringWithFormat:@"%d",intNumber--];
     }
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
     [super setSelected:selected animated:animated];
-
+    
     // Configure the view for the selected state
 }
 

@@ -8,6 +8,7 @@
 
 #import "AlterMyAddressViewController.h"
 #import "ToolController.h"
+#import "Contents.h"
 
 @interface AlterMyAddressViewController ()
 @property (weak, nonatomic) IBOutlet UITextField *txtName;
@@ -18,6 +19,7 @@
 @property (weak, nonatomic) IBOutlet UIView *pickView;
 
 @property (weak, nonatomic) IBOutlet UIPickerView *pickerView;
+
 @property(nonatomic,strong)NSDictionary* AllProvinceDict;
 @property(nonatomic,strong)NSDictionary* provinceDict;
 @property(nonatomic,strong)NSArray* provinceArr;
@@ -48,8 +50,8 @@
     self.AllProvinceDict = [[NSDictionary alloc] initWithContentsOfFile:plistPath];
     self.pickView.hidden = YES;
     
-
-
+    
+    
     
     
     self.pickerView.dataSource = self;
@@ -87,12 +89,12 @@
         self.txtZipCode.text = [EachBooksData objectForKey:@"zipCode"];
         
     }
-
+    
 }
 -(NSDictionary *)getAddressBy:(NSString *)addressId{
     NSDictionary *Data =[NSDictionary alloc];
     NSError *error;
-    NSString *strUrl = [[NSString alloc]initWithFormat:@"http://192.168.0.137:8080/NetBookShop/GetUserAddressForId?AddressId=%@",addressId];
+    NSString *strUrl = [[NSString alloc]initWithFormat:@"%@/GetUserAddressForId?AddressId=%@",Contents.getContentsUrl,addressId];
     NSURL *url = [[NSURL alloc] initWithString:strUrl];
     NSURLRequest *request = [NSURLRequest requestWithURL:url];
     NSData *jsonData = [NSURLConnection sendSynchronousRequest:request returningResponse:nil error:nil];
@@ -122,7 +124,7 @@
         NSString* str = [NSString stringWithFormat:@"/AlterAddress?userId=%@&Address=%@&Phone=%@&ZipCode=%@&Name=%@&AddressId=%@",self.userId,AllAddress,self.txtPhone.text,self.txtZipCode.text,self.txtName.text,self.strAddressId];
         [tool getDataWith:str];
     }
-
+    
     //    self.allDataArr = [dict objectForKey:@"userinfolist"];
     //    NSDictionary *EachBooksData=[self.allDataArr objectAtIndex:0];
     //    http://localhost:8080/NetBookShop/AlterUserInfo?userId=userId&UserName=1&Email=1&Phone=1&Address=1
@@ -182,7 +184,7 @@
 #pragma mark 实现UIPickerViewDataSource方法
 //选择器有几列
 -(NSInteger)numberOfComponentsInPickerView:(UIPickerView *)pickerView{
-//    return 3;
+    //    return 3;
     return 3;
 }
 
@@ -198,7 +200,7 @@
     }else{
         return 0;
     }
-
+    
 }
 
 #pragma mark 实现UIPickerViewDelegate方法
@@ -208,17 +210,17 @@
         self.provinceDict = [self.AllProvinceDict objectForKey:strRow];
         self.provinceArr = [self.provinceDict allKeys];
         self.province = [self.provinceArr objectAtIndex:0];
-            return self.province;
+        return self.province;
     }else if(component == 1){
-
+        
         NSString* strRow = [[NSString alloc] initWithFormat:@"%lu",row];
         self.cityDict = [self.AllCityDict objectForKey:strRow];
         self.cityArr = [self.cityDict allKeys];
         self.city = [self.cityArr objectAtIndex:0];
-            return self.city;
+        return self.city;
     }else if(component == 2){
-         self.countyArr = [self.cityDict objectForKey:[[NSString alloc] initWithFormat:@"%@",self.city]];
-            return self.countyArr[row];
+        self.countyArr = [self.cityDict objectForKey:[[NSString alloc] initWithFormat:@"%@",self.city]];
+        return self.countyArr[row];
     }else{
         return 0;
     }
@@ -228,7 +230,7 @@
 -(void)pickerView:(UIPickerView *)pickerView didSelectRow:(NSInteger)row inComponent:(NSInteger)component{
     NSString* strRow = [[NSString alloc] initWithFormat:@"%lu",row];
     NSLog(@"%@",strRow);
-
+    
     if (component == 0) {
         self.provinceDict = [self.AllProvinceDict objectForKey:strRow];
         self.provinceArr = [self.provinceDict allKeys];
@@ -236,18 +238,18 @@
         NSLog(@"%@",self.province);
         self.AllCityDict = [self.provinceDict objectForKey:[self.provinceArr objectAtIndex:0]];
         self.cityDict = [self.AllCityDict objectForKey:@"0"];
-         [self.pickerView reloadComponent:2];
-            [self.pickerView reloadComponent:1];
+        [self.pickerView reloadComponent:2];
+        [self.pickerView reloadComponent:1];
         
     }else if(component == 1){
         self.countyArr = [self.cityDict objectForKey:[[NSString alloc] initWithFormat:@"%@",self.city]];
-            [self.pickerView reloadComponent:2];
+        [self.pickerView reloadComponent:2];
     }
 }
 
 - (IBAction)btnAlterAddress:(id)sender {
     self.pickView.hidden = NO;
-
+    
 }
 - (IBAction)btnCancel:(id)sender {
     self.pickView.hidden = YES;
@@ -256,7 +258,7 @@
     NSInteger row3 = [self.pickerView selectedRowInComponent:2];
     NSString* value = [[NSString alloc] initWithFormat:@"%@ %@ %@",self.province,self.city,self.countyArr[row3]];
     self.txtPickAddress.text = value;
-//    self.txtAddress.text = [[NSString alloc] initWithFormat:@"%@ %@",value,self.txtAddress.text];
+    //    self.txtAddress.text = [[NSString alloc] initWithFormat:@"%@ %@",value,self.txtAddress.text];
     self.pickView.hidden = YES;
 }
 

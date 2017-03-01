@@ -9,6 +9,7 @@
 #import "AddressListViewController.h"
 #import "AddressListTableViewCell.h"
 #import "ToolController.h"
+#import "Contents.h"
 
 @interface AddressListViewController ()
 
@@ -26,8 +27,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    //设置导航栏
-    self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    // 导航栏的设置
+    self.navigationController.navigationBar.barTintColor = [UIColor whiteColor];
+    [self.navigationController.navigationBar setTitleTextAttributes:
+     @{NSFontAttributeName:[UIFont systemFontOfSize:19],
+       NSForegroundColorAttributeName:RGB(40, 43, 53)}];
+    self.navigationController.navigationBar.tintColor  = RGB(40, 43, 53);
+    
     //设置单元格文本框
     self.txtField.hidden = YES;
     self.txtField.delegate = self;
@@ -57,15 +63,14 @@
     [myAlertController addAction:[UIAlertAction actionWithTitle:@"ok" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
         //        NSLog(@"you click ok!");
         //点击按钮的响应事件；
-         [self dismissViewControllerAnimated:YES completion:nil];
+        [self dismissViewControllerAnimated:YES completion:nil];
     }]];
     [self presentViewController:myAlertController animated:true completion:nil];
 }
-
 -(NSDictionary *)getUserInfoBy:(NSString *)userId{
     NSDictionary *Data =[NSDictionary alloc];
     NSError *error;
-    NSString *strUrl = [[NSString alloc]initWithFormat:@"http://192.168.0.137:8080/NetBookShop/GetUserAddress?userId=%@",userId];
+    NSString *strUrl = [[NSString alloc]initWithFormat:@"%@/GetUserAddress?userId=%@",Contents.getContentsUrl,userId];
     NSURL *url = [[NSURL alloc] initWithString:strUrl];
     NSURLRequest *request = [NSURLRequest requestWithURL:url];
     NSData *jsonData = [NSURLConnection sendSynchronousRequest:request returningResponse:nil error:nil];
@@ -95,7 +100,7 @@
     NSUInteger row = [indexPath row];
     
     NSDictionary *EachBooksData=[self.GetArr objectAtIndex:row];
-
+    
     
     cell.userName.text = [EachBooksData objectForKey:@"name"];
     cell.address.text = [EachBooksData objectForKey:@"address"];
@@ -112,7 +117,7 @@
     //    NSLog(@" you click this %lu row",(unsigned long)row);
     NSDictionary *EachBooksData=[self.GetArr objectAtIndex:row];
     self.strAddressId = [EachBooksData objectForKey:@"addressId"];
-//    NSLog(@"get url the straddress id is %@",self.strAddressId);
+    //    NSLog(@"get url the straddress id is %@",self.strAddressId);
     
     //获取Default单例
     NSUserDefaults *AddressDefault = [NSUserDefaults standardUserDefaults];
@@ -131,7 +136,7 @@
 
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-   return [self.GetArr count];
+    return [self.GetArr count];
 }
 #pragma mark --UIViewController 生命周期方法，用于响应视图的编辑状态的变化
 -(void)setEditing:(BOOL)editing animated:(BOOL)animated{
@@ -153,7 +158,7 @@
     NSDictionary *EachBooksData=[self.GetArr objectAtIndex:row];
     self.strAddressId = [EachBooksData objectForKey:@"addressId"];
     if (editingStyle == UITableViewCellEditingStyleDelete) {
-        NSLog(@"delete !");
+        //        NSLog(@"delete !");
         ToolController *tool;
         tool = [[ToolController alloc]init];
         NSString* str = [NSString stringWithFormat:@"/RemoveUserAddress?AddressId=%@",self.strAddressId];
@@ -169,10 +174,10 @@
         //        //添加新的模拟数据
         ////        NSDate *newDate = [[NSDate alloc]init];
         ////        [self.logs addObject:newDate];
-//        
-//        
-//        NSDictionary *dict = [self getDataWith:self.userId];
-//        self.allDataArr = [dict objectForKey:@"GetShoppingCarList"];
+        //
+        //
+        //        NSDictionary *dict = [self getDataWith:self.userId];
+        //        self.allDataArr = [dict objectForKey:@"GetShoppingCarList"];
         NSDictionary *getData = [self getUserInfoBy:self.UserId];
         self.GetArr = [getData objectForKey:@"useraddresslist"];
         [self.refreshControl endRefreshing];

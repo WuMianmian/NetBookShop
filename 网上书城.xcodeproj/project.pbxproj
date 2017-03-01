@@ -7,39 +7,63 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D9D4D8DC8AAC91121507D04 /* libPods-网上书城.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ED5B548C3E473E9D4B8833AB /* libPods-网上书城.a */; };
 		3D0771541DBF7D0300F523F6 /* BooksLIstTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0771531DBF7D0300F523F6 /* BooksLIstTableViewController.m */; };
-		3D07715B1DBF908600F523F6 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D07715A1DBF908600F523F6 /* LoginViewController.m */; };
 		3D07715E1DBF972400F523F6 /* UserInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D07715D1DBF972400F523F6 /* UserInfoViewController.m */; };
 		3D0771611DBFA80F00F523F6 /* UserOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0771601DBFA80F00F523F6 /* UserOrderViewController.m */; };
 		3D07717C1DBFC24200F523F6 /* SetupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D07717B1DBFC24200F523F6 /* SetupViewController.m */; };
 		3D0FE0331DD5B338002417CE /* ConfirmBookOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0FE0321DD5B338002417CE /* ConfirmBookOrderViewController.m */; };
+		3D1F60F31E03D6BB00E5526F /* LaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D1F60F21E03D6BB00E5526F /* LaunchViewController.m */; };
+		3D29474E1E01A0F8005FA40F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D29474D1E01A0F8005FA40F /* LaunchScreen.storyboard */; };
+		3D32BC091E0635760004C60B /* newLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D32BC081E0635760004C60B /* newLoginViewController.m */; };
+		3D32BC0C1E065DD40004C60B /* WhiteWaterWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D32BC0A1E065DD40004C60B /* WhiteWaterWaveView.m */; };
+		3D32BC131E066E330004C60B /* ContactUsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D32BC121E066E330004C60B /* ContactUsViewController.m */; };
+		3D32BC171E06BA6B0004C60B /* newRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D32BC161E06BA6B0004C60B /* newRegisterViewController.m */; };
+		3D32BC1A1E06BAF50004C60B /* DescribeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D32BC191E06BAF50004C60B /* DescribeViewController.m */; };
 		3D3845891DD08D19008E02A6 /* OrderTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3845881DD08D19008E02A6 /* OrderTableViewController.m */; };
 		3D38458C1DD08D28008E02A6 /* OrderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D38458B1DD08D28008E02A6 /* OrderTableViewCell.m */; };
+		3D3EF7F81DD6DACF00C85289 /* ChoseAddressTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3EF7F71DD6DACF00C85289 /* ChoseAddressTableViewController.m */; };
+		3D4644081E2791AF00A17BD6 /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4644071E2791AF00A17BD6 /* MainTabBarController.m */; };
 		3D60A90E1DCF59B9003091D8 /* CategoryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D60A90D1DCF59B9003091D8 /* CategoryTableViewController.m */; };
 		3D60A9111DCF60B3003091D8 /* CategoryWithBooksTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D60A9101DCF60B3003091D8 /* CategoryWithBooksTableViewController.m */; };
 		3D60A9141DCF683D003091D8 /* BookDescribeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D60A9131DCF683D003091D8 /* BookDescribeViewController.m */; };
 		3D60A91B1DCF6EDB003091D8 /* ShoppingCarTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D60A91A1DCF6EDB003091D8 /* ShoppingCarTableViewController.m */; };
 		3D60A91E1DCF6F03003091D8 /* ShoppingCarTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D60A91D1DCF6F03003091D8 /* ShoppingCarTableViewCell.m */; };
+		3D6D9A291E1245C800C836CD /* AlterAddressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6D9A281E1245C800C836CD /* AlterAddressViewController.m */; };
 		3D6DB6AE1D93933300CFCFBB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6DB6AD1D93933300CFCFBB /* main.m */; };
 		3D6DB6B11D93933300CFCFBB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6DB6B01D93933300CFCFBB /* AppDelegate.m */; };
-		3D6DB6B41D93933300CFCFBB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6DB6B31D93933300CFCFBB /* ViewController.m */; };
 		3D6DB6B91D93933300CFCFBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D6DB6B81D93933300CFCFBB /* Assets.xcassets */; };
-		3D6DB6BC1D93933300CFCFBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D6DB6BA1D93933300CFCFBB /* LaunchScreen.storyboard */; };
 		3D6DB6C71D93933300CFCFBB /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6DB6C61D93933300CFCFBB /* ____Tests.m */; };
 		3D6DB6D21D93933300CFCFBB /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6DB6D11D93933300CFCFBB /* ____UITests.m */; };
 		3D7BD61D1DD0EE2C00E370E3 /* ToolController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D7BD61C1DD0EE2C00E370E3 /* ToolController.m */; };
 		3D7BD6201DD18CA800E370E3 /* UserDetailInfoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D7BD61F1DD18CA800E370E3 /* UserDetailInfoTableViewController.m */; };
+		3D7F83281E006D89004D8F1B /* Contents.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D7F83271E006D89004D8F1B /* Contents.m */; };
+		3D7F832B1E013115004D8F1B /* ShoppingCarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D7F832A1E013115004D8F1B /* ShoppingCarViewController.m */; };
 		3D86E9441DD34E6600A864CD /* area.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3D86E9431DD34E6600A864CD /* area.plist */; };
 		3D86E9461DD3516400A864CD /* provinces_cities.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3D86E9451DD3516400A864CD /* provinces_cities.plist */; };
 		3D87148E1DBBBF9400CE1B11 /* BookListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D87148D1DBBBF9400CE1B11 /* BookListTableViewCell.m */; };
+		3DA514F11E64225E0010001C /* libMBProgressHUD.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DA514F01E64225E0010001C /* libMBProgressHUD.a */; };
+		3DA514F81E6424350010001C /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3DA514F41E6424350010001C /* README.txt */; };
+		3DA514F91E6424350010001C /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DA514F71E6424350010001C /* libWeChatSDK.a */; };
+		3DA514FB1E6424690010001C /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DA514FA1E6424690010001C /* CoreTelephony.framework */; };
+		3DA514FD1E6424700010001C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DA514FC1E6424700010001C /* SystemConfiguration.framework */; };
+		3DA514FF1E6424890010001C /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DA514FE1E6424890010001C /* libsqlite3.0.tbd */; };
+		3DA515011E6424960010001C /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DA515001E6424960010001C /* libz.tbd */; };
+		3DA515031E6424A30010001C /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DA515021E6424A30010001C /* libc++.tbd */; };
+		3DC347431DEBE87A00376743 /* UserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC347421DEBE87A00376743 /* UserViewController.m */; };
+		3DC347461DEBFCC100376743 /* MyHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC347451DEBFCC100376743 /* MyHeaderView.m */; };
+		3DE088771E07DD5200B8F6B1 /* PersonalDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE088761E07DD5200B8F6B1 /* PersonalDetailsViewController.m */; };
+		3DE088791E07E28F00B8F6B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DE088781E07E28F00B8F6B1 /* Main.storyboard */; };
 		3DE17FB51DD071A80037C461 /* AlterMyAddressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE17FB41DD071A80037C461 /* AlterMyAddressViewController.m */; };
-		3DE34B8F1DC0535F0051AD87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DE34B8D1DC0535F0051AD87 /* Main.storyboard */; };
 		3DE34B941DC057AB0051AD87 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE34B931DC057AB0051AD87 /* HomeViewController.m */; };
 		3DE34B971DC061F00051AD87 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE34B961DC061F00051AD87 /* RegisterViewController.m */; };
 		3DE34B9A1DC07E270051AD87 /* MyOrderListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE34B991DC07E270051AD87 /* MyOrderListViewController.m */; };
 		3DE34B9E1DC07EA00051AD87 /* MyOrderListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE34B9D1DC07EA00051AD87 /* MyOrderListTableViewCell.m */; };
 		3DE34BA21DC0848C0051AD87 /* AddressListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE34BA11DC0848C0051AD87 /* AddressListTableViewCell.m */; };
 		3DE34BA51DC084AB0051AD87 /* AddressListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE34BA41DC084AB0051AD87 /* AddressListViewController.m */; };
+		3DEA49F31E22062B0039CDB0 /* MyCollectTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DEA49F21E22062B0039CDB0 /* MyCollectTableViewController.m */; };
+		3DEA49F61E2207360039CDB0 /* MyCollectTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DEA49F51E2207360039CDB0 /* MyCollectTableViewCell.m */; };
+		3DF03FB71E0560CC007F8108 /* NYWaterWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF03FB61E0560CC007F8108 /* NYWaterWaveView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,10 +84,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2EC0F1FF06CD6979ADD1F4FC /* Pods-网上书城.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-网上书城.release.xcconfig"; path = "Pods/Target Support Files/Pods-网上书城/Pods-网上书城.release.xcconfig"; sourceTree = "<group>"; };
 		3D0771521DBF7D0300F523F6 /* BooksLIstTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BooksLIstTableViewController.h; sourceTree = "<group>"; };
 		3D0771531DBF7D0300F523F6 /* BooksLIstTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BooksLIstTableViewController.m; sourceTree = "<group>"; };
-		3D0771591DBF908600F523F6 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
-		3D07715A1DBF908600F523F6 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		3D07715C1DBF972400F523F6 /* UserInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfoViewController.h; sourceTree = "<group>"; };
 		3D07715D1DBF972400F523F6 /* UserInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfoViewController.m; sourceTree = "<group>"; };
 		3D07715F1DBFA80F00F523F6 /* UserOrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserOrderViewController.h; sourceTree = "<group>"; };
@@ -72,10 +95,27 @@
 		3D07717B1DBFC24200F523F6 /* SetupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetupViewController.m; sourceTree = "<group>"; };
 		3D0FE0311DD5B338002417CE /* ConfirmBookOrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfirmBookOrderViewController.h; sourceTree = "<group>"; };
 		3D0FE0321DD5B338002417CE /* ConfirmBookOrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfirmBookOrderViewController.m; sourceTree = "<group>"; };
+		3D1F60F11E03D6BB00E5526F /* LaunchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchViewController.h; sourceTree = "<group>"; };
+		3D1F60F21E03D6BB00E5526F /* LaunchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchViewController.m; sourceTree = "<group>"; };
+		3D29474D1E01A0F8005FA40F /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D32BC071E0635760004C60B /* newLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = newLoginViewController.h; sourceTree = "<group>"; };
+		3D32BC081E0635760004C60B /* newLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = newLoginViewController.m; sourceTree = "<group>"; };
+		3D32BC0A1E065DD40004C60B /* WhiteWaterWaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WhiteWaterWaveView.m; sourceTree = "<group>"; };
+		3D32BC0B1E065DD40004C60B /* WhiteWaterWaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WhiteWaterWaveView.h; sourceTree = "<group>"; };
+		3D32BC111E066E330004C60B /* ContactUsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactUsViewController.h; sourceTree = "<group>"; };
+		3D32BC121E066E330004C60B /* ContactUsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactUsViewController.m; sourceTree = "<group>"; };
+		3D32BC151E06BA6B0004C60B /* newRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = newRegisterViewController.h; sourceTree = "<group>"; };
+		3D32BC161E06BA6B0004C60B /* newRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = newRegisterViewController.m; sourceTree = "<group>"; };
+		3D32BC181E06BAF50004C60B /* DescribeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DescribeViewController.h; sourceTree = "<group>"; };
+		3D32BC191E06BAF50004C60B /* DescribeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DescribeViewController.m; sourceTree = "<group>"; };
 		3D3845871DD08D19008E02A6 /* OrderTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderTableViewController.h; sourceTree = "<group>"; };
 		3D3845881DD08D19008E02A6 /* OrderTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderTableViewController.m; sourceTree = "<group>"; };
 		3D38458A1DD08D28008E02A6 /* OrderTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderTableViewCell.h; sourceTree = "<group>"; };
 		3D38458B1DD08D28008E02A6 /* OrderTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderTableViewCell.m; sourceTree = "<group>"; };
+		3D3EF7F61DD6DACF00C85289 /* ChoseAddressTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChoseAddressTableViewController.h; sourceTree = "<group>"; };
+		3D3EF7F71DD6DACF00C85289 /* ChoseAddressTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChoseAddressTableViewController.m; sourceTree = "<group>"; };
+		3D4644061E2791AF00A17BD6 /* MainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarController.h; sourceTree = "<group>"; };
+		3D4644071E2791AF00A17BD6 /* MainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarController.m; sourceTree = "<group>"; };
 		3D60A90C1DCF59B9003091D8 /* CategoryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryTableViewController.h; sourceTree = "<group>"; };
 		3D60A90D1DCF59B9003091D8 /* CategoryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryTableViewController.m; sourceTree = "<group>"; };
 		3D60A90F1DCF60B3003091D8 /* CategoryWithBooksTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryWithBooksTableViewController.h; sourceTree = "<group>"; };
@@ -86,14 +126,13 @@
 		3D60A91A1DCF6EDB003091D8 /* ShoppingCarTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingCarTableViewController.m; sourceTree = "<group>"; };
 		3D60A91C1DCF6F03003091D8 /* ShoppingCarTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoppingCarTableViewCell.h; sourceTree = "<group>"; };
 		3D60A91D1DCF6F03003091D8 /* ShoppingCarTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingCarTableViewCell.m; sourceTree = "<group>"; };
+		3D6D9A271E1245C800C836CD /* AlterAddressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlterAddressViewController.h; sourceTree = "<group>"; };
+		3D6D9A281E1245C800C836CD /* AlterAddressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlterAddressViewController.m; sourceTree = "<group>"; };
 		3D6DB6A91D93933300CFCFBB /* 网上书城.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "网上书城.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D6DB6AD1D93933300CFCFBB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3D6DB6AF1D93933300CFCFBB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3D6DB6B01D93933300CFCFBB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3D6DB6B21D93933300CFCFBB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3D6DB6B31D93933300CFCFBB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3D6DB6B81D93933300CFCFBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3D6DB6BB1D93933300CFCFBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D6DB6BD1D93933300CFCFBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D6DB6C21D93933300CFCFBB /* 网上书城Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "网上书城Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D6DB6C61D93933300CFCFBB /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
@@ -106,13 +145,34 @@
 		3D7BD61C1DD0EE2C00E370E3 /* ToolController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToolController.m; sourceTree = "<group>"; };
 		3D7BD61E1DD18CA800E370E3 /* UserDetailInfoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDetailInfoTableViewController.h; sourceTree = "<group>"; };
 		3D7BD61F1DD18CA800E370E3 /* UserDetailInfoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDetailInfoTableViewController.m; sourceTree = "<group>"; };
+		3D7F83261E006D88004D8F1B /* Contents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contents.h; sourceTree = "<group>"; };
+		3D7F83271E006D89004D8F1B /* Contents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contents.m; sourceTree = "<group>"; };
+		3D7F83291E013115004D8F1B /* ShoppingCarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoppingCarViewController.h; sourceTree = "<group>"; };
+		3D7F832A1E013115004D8F1B /* ShoppingCarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingCarViewController.m; sourceTree = "<group>"; };
 		3D86E9431DD34E6600A864CD /* area.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = area.plist; sourceTree = "<group>"; };
 		3D86E9451DD3516400A864CD /* provinces_cities.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = provinces_cities.plist; sourceTree = "<group>"; };
 		3D87148C1DBBBF9400CE1B11 /* BookListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookListTableViewCell.h; sourceTree = "<group>"; };
 		3D87148D1DBBBF9400CE1B11 /* BookListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookListTableViewCell.m; sourceTree = "<group>"; };
+		3DA514F01E64225E0010001C /* libMBProgressHUD.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMBProgressHUD.a; path = "../../../Library/Developer/Xcode/DerivedData/网上书城-gczhpdojyoezmbejcmqsmqvzpcxm/Build/Products/Debug-iphonesimulator/MBProgressHUD/libMBProgressHUD.a"; sourceTree = "<group>"; };
+		3DA514F31E6424350010001C /* WechatAuthSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
+		3DA514F41E6424350010001C /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		3DA514F51E6424350010001C /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		3DA514F61E6424350010001C /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		3DA514F71E6424350010001C /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		3DA514FA1E6424690010001C /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		3DA514FC1E6424700010001C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		3DA514FE1E6424890010001C /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		3DA515001E6424960010001C /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		3DA515021E6424A30010001C /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		3DC347411DEBE87A00376743 /* UserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserViewController.h; sourceTree = "<group>"; };
+		3DC347421DEBE87A00376743 /* UserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserViewController.m; sourceTree = "<group>"; };
+		3DC347441DEBFCC100376743 /* MyHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyHeaderView.h; sourceTree = "<group>"; };
+		3DC347451DEBFCC100376743 /* MyHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyHeaderView.m; sourceTree = "<group>"; };
+		3DE088751E07DD5200B8F6B1 /* PersonalDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalDetailsViewController.h; sourceTree = "<group>"; };
+		3DE088761E07DD5200B8F6B1 /* PersonalDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalDetailsViewController.m; sourceTree = "<group>"; };
+		3DE088781E07E28F00B8F6B1 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		3DE17FB31DD071A80037C461 /* AlterMyAddressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlterMyAddressViewController.h; sourceTree = "<group>"; };
 		3DE17FB41DD071A80037C461 /* AlterMyAddressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlterMyAddressViewController.m; sourceTree = "<group>"; };
-		3DE34B8E1DC0535F0051AD87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3DE34B921DC057AB0051AD87 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		3DE34B931DC057AB0051AD87 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		3DE34B951DC061F00051AD87 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
@@ -125,6 +185,14 @@
 		3DE34BA11DC0848C0051AD87 /* AddressListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressListTableViewCell.m; sourceTree = "<group>"; };
 		3DE34BA31DC084AB0051AD87 /* AddressListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressListViewController.h; sourceTree = "<group>"; };
 		3DE34BA41DC084AB0051AD87 /* AddressListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressListViewController.m; sourceTree = "<group>"; };
+		3DEA49F11E22062B0039CDB0 /* MyCollectTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCollectTableViewController.h; sourceTree = "<group>"; };
+		3DEA49F21E22062B0039CDB0 /* MyCollectTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCollectTableViewController.m; sourceTree = "<group>"; };
+		3DEA49F41E2207360039CDB0 /* MyCollectTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCollectTableViewCell.h; sourceTree = "<group>"; };
+		3DEA49F51E2207360039CDB0 /* MyCollectTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCollectTableViewCell.m; sourceTree = "<group>"; };
+		3DF03FB51E0560CC007F8108 /* NYWaterWaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYWaterWaveView.h; sourceTree = "<group>"; };
+		3DF03FB61E0560CC007F8108 /* NYWaterWaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYWaterWaveView.m; sourceTree = "<group>"; };
+		4FC1105254590AB1A80CA767 /* Pods-网上书城.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-网上书城.debug.xcconfig"; path = "Pods/Target Support Files/Pods-网上书城/Pods-网上书城.debug.xcconfig"; sourceTree = "<group>"; };
+		ED5B548C3E473E9D4B8833AB /* libPods-网上书城.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-网上书城.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +200,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DA515031E6424A30010001C /* libc++.tbd in Frameworks */,
+				3DA515011E6424960010001C /* libz.tbd in Frameworks */,
+				3DA514FF1E6424890010001C /* libsqlite3.0.tbd in Frameworks */,
+				3DA514FD1E6424700010001C /* SystemConfiguration.framework in Frameworks */,
+				3DA514FB1E6424690010001C /* CoreTelephony.framework in Frameworks */,
+				3DA514F11E64225E0010001C /* libMBProgressHUD.a in Frameworks */,
+				2D9D4D8DC8AAC91121507D04 /* libPods-网上书城.a in Frameworks */,
+				3DA514F91E6424350010001C /* libWeChatSDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,7 +228,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3D0771511DBF7CE300F523F6 /* BooksList */ = {
+		3D0771511DBF7CE300F523F6 /* BooksListView */ = {
 			isa = PBXGroup;
 			children = (
 				3D87148C1DBBBF9400CE1B11 /* BookListTableViewCell.h */,
@@ -165,17 +241,15 @@
 				3D60A9101DCF60B3003091D8 /* CategoryWithBooksTableViewController.m */,
 				3D60A9121DCF683D003091D8 /* BookDescribeViewController.h */,
 				3D60A9131DCF683D003091D8 /* BookDescribeViewController.m */,
-				3D0FE0311DD5B338002417CE /* ConfirmBookOrderViewController.h */,
-				3D0FE0321DD5B338002417CE /* ConfirmBookOrderViewController.m */,
 			);
-			name = BooksList;
+			name = BooksListView;
 			sourceTree = "<group>";
 		};
-		3D0771551DBF8FB400F523F6 /* User */ = {
+		3D0771551DBF8FB400F523F6 /* UserView */ = {
 			isa = PBXGroup;
 			children = (
-				3D0771591DBF908600F523F6 /* LoginViewController.h */,
-				3D07715A1DBF908600F523F6 /* LoginViewController.m */,
+				3DC347441DEBFCC100376743 /* MyHeaderView.h */,
+				3DC347451DEBFCC100376743 /* MyHeaderView.m */,
 				3D07715C1DBF972400F523F6 /* UserInfoViewController.h */,
 				3D07715D1DBF972400F523F6 /* UserInfoViewController.m */,
 				3D07715F1DBFA80F00F523F6 /* UserOrderViewController.h */,
@@ -186,30 +260,88 @@
 				3DE34B961DC061F00051AD87 /* RegisterViewController.m */,
 				3D7BD61E1DD18CA800E370E3 /* UserDetailInfoTableViewController.h */,
 				3D7BD61F1DD18CA800E370E3 /* UserDetailInfoTableViewController.m */,
+				3DC347411DEBE87A00376743 /* UserViewController.h */,
+				3DC347421DEBE87A00376743 /* UserViewController.m */,
+				3DE088751E07DD5200B8F6B1 /* PersonalDetailsViewController.h */,
+				3DE088761E07DD5200B8F6B1 /* PersonalDetailsViewController.m */,
 			);
-			name = User;
+			name = UserView;
 			sourceTree = "<group>";
 		};
-		3D3845861DD08D0B008E02A6 /* Order */ = {
+		3D1F60F01E03D5F700E5526F /* AppDelegate */ = {
 			isa = PBXGroup;
 			children = (
+				3D6DB6AF1D93933300CFCFBB /* AppDelegate.h */,
+				3D6DB6B01D93933300CFCFBB /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		3D2947471E019B60005FA40F /* LaunchScreenView */ = {
+			isa = PBXGroup;
+			children = (
+				3D29474D1E01A0F8005FA40F /* LaunchScreen.storyboard */,
+				3D1F60F11E03D6BB00E5526F /* LaunchViewController.h */,
+				3D1F60F21E03D6BB00E5526F /* LaunchViewController.m */,
+			);
+			name = LaunchScreenView;
+			sourceTree = "<group>";
+		};
+		3D32BC061E06354D0004C60B /* LoginView */ = {
+			isa = PBXGroup;
+			children = (
+				3D32BC071E0635760004C60B /* newLoginViewController.h */,
+				3D32BC081E0635760004C60B /* newLoginViewController.m */,
+			);
+			name = LoginView;
+			sourceTree = "<group>";
+		};
+		3D32BC0D1E066DA90004C60B /* ContactUsView */ = {
+			isa = PBXGroup;
+			children = (
+				3D32BC111E066E330004C60B /* ContactUsViewController.h */,
+				3D32BC121E066E330004C60B /* ContactUsViewController.m */,
+			);
+			name = ContactUsView;
+			sourceTree = "<group>";
+		};
+		3D32BC141E06BA370004C60B /* RegisterView */ = {
+			isa = PBXGroup;
+			children = (
+				3D32BC151E06BA6B0004C60B /* newRegisterViewController.h */,
+				3D32BC161E06BA6B0004C60B /* newRegisterViewController.m */,
+				3D32BC181E06BAF50004C60B /* DescribeViewController.h */,
+				3D32BC191E06BAF50004C60B /* DescribeViewController.m */,
+			);
+			name = RegisterView;
+			sourceTree = "<group>";
+		};
+		3D3845861DD08D0B008E02A6 /* OrderView */ = {
+			isa = PBXGroup;
+			children = (
+				3D0FE0311DD5B338002417CE /* ConfirmBookOrderViewController.h */,
+				3D0FE0321DD5B338002417CE /* ConfirmBookOrderViewController.m */,
+				3D3EF7F61DD6DACF00C85289 /* ChoseAddressTableViewController.h */,
+				3D3EF7F71DD6DACF00C85289 /* ChoseAddressTableViewController.m */,
 				3D3845871DD08D19008E02A6 /* OrderTableViewController.h */,
 				3D3845881DD08D19008E02A6 /* OrderTableViewController.m */,
 				3D38458A1DD08D28008E02A6 /* OrderTableViewCell.h */,
 				3D38458B1DD08D28008E02A6 /* OrderTableViewCell.m */,
 			);
-			name = Order;
+			name = OrderView;
 			sourceTree = "<group>";
 		};
-		3D60A9151DCF6EBD003091D8 /* ShoppingCar */ = {
+		3D60A9151DCF6EBD003091D8 /* ShoppingCarView */ = {
 			isa = PBXGroup;
 			children = (
 				3D60A9191DCF6EDB003091D8 /* ShoppingCarTableViewController.h */,
 				3D60A91A1DCF6EDB003091D8 /* ShoppingCarTableViewController.m */,
 				3D60A91C1DCF6F03003091D8 /* ShoppingCarTableViewCell.h */,
 				3D60A91D1DCF6F03003091D8 /* ShoppingCarTableViewCell.m */,
+				3D7F83291E013115004D8F1B /* ShoppingCarViewController.h */,
+				3D7F832A1E013115004D8F1B /* ShoppingCarViewController.m */,
 			);
-			name = ShoppingCar;
+			name = ShoppingCarView;
 			sourceTree = "<group>";
 		};
 		3D6DB6A01D93933300CFCFBB = {
@@ -219,6 +351,8 @@
 				3D6DB6C51D93933300CFCFBB /* 网上书城Tests */,
 				3D6DB6D01D93933300CFCFBB /* 网上书城UITests */,
 				3D6DB6AA1D93933300CFCFBB /* Products */,
+				84FFADDE3A61A2D83349EC81 /* Pods */,
+				F05DB5605642EFB636DBEFD8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -235,26 +369,32 @@
 		3D6DB6AB1D93933300CFCFBB /* 网上书城 */ = {
 			isa = PBXGroup;
 			children = (
+				3DA514F21E6423AF0010001C /* WeChat */,
+				3DEA49F01E2204170039CDB0 /* CollectionView */,
+				3D32BC141E06BA370004C60B /* RegisterView */,
+				3DE34B901DC057860051AD87 /* HomeView */,
+				3D0771511DBF7CE300F523F6 /* BooksListView */,
+				3D60A9151DCF6EBD003091D8 /* ShoppingCarView */,
+				3D0771551DBF8FB400F523F6 /* UserView */,
+				3D32BC0D1E066DA90004C60B /* ContactUsView */,
+				3D32BC061E06354D0004C60B /* LoginView */,
+				3DF03FB41E0560CC007F8108 /* NYWaterWave */,
+				3D2947471E019B60005FA40F /* LaunchScreenView */,
 				3D7BD6171DD0EC8700E370E3 /* Tool */,
-				3D3845861DD08D0B008E02A6 /* Order */,
-				3D60A9151DCF6EBD003091D8 /* ShoppingCar */,
-				3DE34B9F1DC084410051AD87 /* AddressList */,
-				3DE34B9B1DC07E3A0051AD87 /* OrderList */,
-				3DE34B901DC057860051AD87 /* Home */,
-				3D0771551DBF8FB400F523F6 /* User */,
-				3D0771511DBF7CE300F523F6 /* BooksList */,
+				3D3845861DD08D0B008E02A6 /* OrderView */,
+				3DE34B9F1DC084410051AD87 /* AddressListView */,
+				3DE34B9B1DC07E3A0051AD87 /* OrderListView */,
+				3D1F60F01E03D5F700E5526F /* AppDelegate */,
 				3D6DB6EA1D939E7000CFCFBB /* RightPage */,
-				3D6DB6AF1D93933300CFCFBB /* AppDelegate.h */,
-				3D6DB6B01D93933300CFCFBB /* AppDelegate.m */,
-				3D6DB6B21D93933300CFCFBB /* ViewController.h */,
-				3D6DB6B31D93933300CFCFBB /* ViewController.m */,
 				3D6DB6B81D93933300CFCFBB /* Assets.xcassets */,
-				3D6DB6BA1D93933300CFCFBB /* LaunchScreen.storyboard */,
-				3DE34B8D1DC0535F0051AD87 /* Main.storyboard */,
 				3D6DB6BD1D93933300CFCFBB /* Info.plist */,
 				3D86E9431DD34E6600A864CD /* area.plist */,
+				3DE088781E07E28F00B8F6B1 /* Main.storyboard */,
+				3D6DB6E91D93999600CFCFBB /* PrefixHeader.pch */,
 				3D86E9451DD3516400A864CD /* provinces_cities.plist */,
 				3D6DB6AC1D93933300CFCFBB /* Supporting Files */,
+				3D4644061E2791AF00A17BD6 /* MainTabBarController.h */,
+				3D4644071E2791AF00A17BD6 /* MainTabBarController.m */,
 			);
 			path = "网上书城";
 			sourceTree = "<group>";
@@ -263,7 +403,6 @@
 			isa = PBXGroup;
 			children = (
 				3D6DB6AD1D93933300CFCFBB /* main.m */,
-				3D6DB6E91D93999600CFCFBB /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -296,22 +435,36 @@
 		3D7BD6171DD0EC8700E370E3 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				3D7F83261E006D88004D8F1B /* Contents.h */,
+				3D7F83271E006D89004D8F1B /* Contents.m */,
 				3D7BD61B1DD0EE2C00E370E3 /* ToolController.h */,
 				3D7BD61C1DD0EE2C00E370E3 /* ToolController.m */,
 			);
 			name = Tool;
 			sourceTree = "<group>";
 		};
-		3DE34B901DC057860051AD87 /* Home */ = {
+		3DA514F21E6423AF0010001C /* WeChat */ = {
+			isa = PBXGroup;
+			children = (
+				3DA514F31E6424350010001C /* WechatAuthSDK.h */,
+				3DA514F41E6424350010001C /* README.txt */,
+				3DA514F51E6424350010001C /* WXApi.h */,
+				3DA514F61E6424350010001C /* WXApiObject.h */,
+				3DA514F71E6424350010001C /* libWeChatSDK.a */,
+			);
+			name = WeChat;
+			sourceTree = "<group>";
+		};
+		3DE34B901DC057860051AD87 /* HomeView */ = {
 			isa = PBXGroup;
 			children = (
 				3DE34B921DC057AB0051AD87 /* HomeViewController.h */,
 				3DE34B931DC057AB0051AD87 /* HomeViewController.m */,
 			);
-			name = Home;
+			name = HomeView;
 			sourceTree = "<group>";
 		};
-		3DE34B9B1DC07E3A0051AD87 /* OrderList */ = {
+		3DE34B9B1DC07E3A0051AD87 /* OrderListView */ = {
 			isa = PBXGroup;
 			children = (
 				3DE34B981DC07E270051AD87 /* MyOrderListViewController.h */,
@@ -319,10 +472,10 @@
 				3DE34B9C1DC07EA00051AD87 /* MyOrderListTableViewCell.h */,
 				3DE34B9D1DC07EA00051AD87 /* MyOrderListTableViewCell.m */,
 			);
-			name = OrderList;
+			name = OrderListView;
 			sourceTree = "<group>";
 		};
-		3DE34B9F1DC084410051AD87 /* AddressList */ = {
+		3DE34B9F1DC084410051AD87 /* AddressListView */ = {
 			isa = PBXGroup;
 			children = (
 				3DE34BA01DC0848C0051AD87 /* AddressListTableViewCell.h */,
@@ -331,8 +484,55 @@
 				3DE34BA41DC084AB0051AD87 /* AddressListViewController.m */,
 				3DE17FB31DD071A80037C461 /* AlterMyAddressViewController.h */,
 				3DE17FB41DD071A80037C461 /* AlterMyAddressViewController.m */,
+				3D6D9A271E1245C800C836CD /* AlterAddressViewController.h */,
+				3D6D9A281E1245C800C836CD /* AlterAddressViewController.m */,
 			);
-			name = AddressList;
+			name = AddressListView;
+			sourceTree = "<group>";
+		};
+		3DEA49F01E2204170039CDB0 /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				3DEA49F11E22062B0039CDB0 /* MyCollectTableViewController.h */,
+				3DEA49F21E22062B0039CDB0 /* MyCollectTableViewController.m */,
+				3DEA49F41E2207360039CDB0 /* MyCollectTableViewCell.h */,
+				3DEA49F51E2207360039CDB0 /* MyCollectTableViewCell.m */,
+			);
+			name = CollectionView;
+			sourceTree = "<group>";
+		};
+		3DF03FB41E0560CC007F8108 /* NYWaterWave */ = {
+			isa = PBXGroup;
+			children = (
+				3DF03FB51E0560CC007F8108 /* NYWaterWaveView.h */,
+				3DF03FB61E0560CC007F8108 /* NYWaterWaveView.m */,
+				3D32BC0B1E065DD40004C60B /* WhiteWaterWaveView.h */,
+				3D32BC0A1E065DD40004C60B /* WhiteWaterWaveView.m */,
+			);
+			path = NYWaterWave;
+			sourceTree = "<group>";
+		};
+		84FFADDE3A61A2D83349EC81 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4FC1105254590AB1A80CA767 /* Pods-网上书城.debug.xcconfig */,
+				2EC0F1FF06CD6979ADD1F4FC /* Pods-网上书城.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F05DB5605642EFB636DBEFD8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DA515021E6424A30010001C /* libc++.tbd */,
+				3DA515001E6424960010001C /* libz.tbd */,
+				3DA514FE1E6424890010001C /* libsqlite3.0.tbd */,
+				3DA514FC1E6424700010001C /* SystemConfiguration.framework */,
+				3DA514FA1E6424690010001C /* CoreTelephony.framework */,
+				3DA514F01E64225E0010001C /* libMBProgressHUD.a */,
+				ED5B548C3E473E9D4B8833AB /* libPods-网上书城.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -342,9 +542,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3D6DB6D61D93933300CFCFBB /* Build configuration list for PBXNativeTarget "网上书城" */;
 			buildPhases = (
+				7370B4A960F95EB63A803DB3 /* 📦 Check Pods Manifest.lock */,
 				3D6DB6A51D93933300CFCFBB /* Sources */,
 				3D6DB6A61D93933300CFCFBB /* Frameworks */,
 				3D6DB6A71D93933300CFCFBB /* Resources */,
+				1340F50BBC11BFC23B61A1A3 /* 📦 Embed Pods Frameworks */,
+				A507AB1EDF745685251581D3 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -444,10 +647,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DE34B8F1DC0535F0051AD87 /* Main.storyboard in Resources */,
 				3D86E9441DD34E6600A864CD /* area.plist in Resources */,
-				3D6DB6BC1D93933300CFCFBB /* LaunchScreen.storyboard in Resources */,
+				3DE088791E07E28F00B8F6B1 /* Main.storyboard in Resources */,
 				3D6DB6B91D93933300CFCFBB /* Assets.xcassets in Resources */,
+				3D29474E1E01A0F8005FA40F /* LaunchScreen.storyboard in Resources */,
+				3DA514F81E6424350010001C /* README.txt in Resources */,
 				3D86E9461DD3516400A864CD /* provinces_cities.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -468,33 +672,96 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1340F50BBC11BFC23B61A1A3 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-网上书城/Pods-网上书城-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7370B4A960F95EB63A803DB3 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A507AB1EDF745685251581D3 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-网上书城/Pods-网上书城-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3D6DB6A51D93933300CFCFBB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D32BC131E066E330004C60B /* ContactUsViewController.m in Sources */,
 				3DE34B971DC061F00051AD87 /* RegisterViewController.m in Sources */,
-				3D6DB6B41D93933300CFCFBB /* ViewController.m in Sources */,
 				3D60A91E1DCF6F03003091D8 /* ShoppingCarTableViewCell.m in Sources */,
 				3DE34B9E1DC07EA00051AD87 /* MyOrderListTableViewCell.m in Sources */,
+				3DC347461DEBFCC100376743 /* MyHeaderView.m in Sources */,
+				3DEA49F31E22062B0039CDB0 /* MyCollectTableViewController.m in Sources */,
+				3DF03FB71E0560CC007F8108 /* NYWaterWaveView.m in Sources */,
 				3D6DB6B11D93933300CFCFBB /* AppDelegate.m in Sources */,
 				3D38458C1DD08D28008E02A6 /* OrderTableViewCell.m in Sources */,
+				3D32BC1A1E06BAF50004C60B /* DescribeViewController.m in Sources */,
+				3DEA49F61E2207360039CDB0 /* MyCollectTableViewCell.m in Sources */,
+				3D32BC0C1E065DD40004C60B /* WhiteWaterWaveView.m in Sources */,
 				3D0FE0331DD5B338002417CE /* ConfirmBookOrderViewController.m in Sources */,
 				3DE34BA21DC0848C0051AD87 /* AddressListTableViewCell.m in Sources */,
 				3DE34B9A1DC07E270051AD87 /* MyOrderListViewController.m in Sources */,
-				3D07715B1DBF908600F523F6 /* LoginViewController.m in Sources */,
 				3DE34B941DC057AB0051AD87 /* HomeViewController.m in Sources */,
 				3D60A91B1DCF6EDB003091D8 /* ShoppingCarTableViewController.m in Sources */,
 				3D7BD6201DD18CA800E370E3 /* UserDetailInfoTableViewController.m in Sources */,
 				3D6DB6AE1D93933300CFCFBB /* main.m in Sources */,
+				3DC347431DEBE87A00376743 /* UserViewController.m in Sources */,
+				3D1F60F31E03D6BB00E5526F /* LaunchViewController.m in Sources */,
+				3D4644081E2791AF00A17BD6 /* MainTabBarController.m in Sources */,
 				3D87148E1DBBBF9400CE1B11 /* BookListTableViewCell.m in Sources */,
 				3DE17FB51DD071A80037C461 /* AlterMyAddressViewController.m in Sources */,
+				3D3EF7F81DD6DACF00C85289 /* ChoseAddressTableViewController.m in Sources */,
 				3D07715E1DBF972400F523F6 /* UserInfoViewController.m in Sources */,
 				3D0771611DBFA80F00F523F6 /* UserOrderViewController.m in Sources */,
+				3D6D9A291E1245C800C836CD /* AlterAddressViewController.m in Sources */,
+				3D32BC171E06BA6B0004C60B /* newRegisterViewController.m in Sources */,
 				3D60A9141DCF683D003091D8 /* BookDescribeViewController.m in Sources */,
+				3D7F83281E006D89004D8F1B /* Contents.m in Sources */,
 				3D07717C1DBFC24200F523F6 /* SetupViewController.m in Sources */,
+				3DE088771E07DD5200B8F6B1 /* PersonalDetailsViewController.m in Sources */,
+				3D32BC091E0635760004C60B /* newLoginViewController.m in Sources */,
 				3D60A9111DCF60B3003091D8 /* CategoryWithBooksTableViewController.m in Sources */,
 				3D3845891DD08D19008E02A6 /* OrderTableViewController.m in Sources */,
+				3D7F832B1E013115004D8F1B /* ShoppingCarViewController.m in Sources */,
 				3D60A90E1DCF59B9003091D8 /* CategoryTableViewController.m in Sources */,
 				3D0771541DBF7D0300F523F6 /* BooksLIstTableViewController.m in Sources */,
 				3DE34BA51DC084AB0051AD87 /* AddressListViewController.m in Sources */,
@@ -533,25 +800,6 @@
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		3D6DB6BA1D93933300CFCFBB /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3D6DB6BB1D93933300CFCFBB /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		3DE34B8D1DC0535F0051AD87 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3DE34B8E1DC0535F0051AD87 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
 		3D6DB6D41D93933300CFCFBB /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -584,6 +832,8 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -594,7 +844,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -631,13 +882,16 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -647,12 +901,23 @@
 		};
 		3D6DB6D71D93933300CFCFBB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FC1105254590AB1A80CA767 /* Pods-网上书城.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = TC9GBWB632;
 				ENABLE_BITCODE = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "网上书城/PrefixHeader.pch";
 				INFOPLIST_FILE = "网上书城/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/网上书城",
+				);
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-Objc",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "test-1.-1-OCtoSwift-DeleteAddCell";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -660,12 +925,23 @@
 		};
 		3D6DB6D81D93933300CFCFBB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EC0F1FF06CD6979ADD1F4FC /* Pods-网上书城.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = TC9GBWB632;
 				ENABLE_BITCODE = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "网上书城/PrefixHeader.pch";
 				INFOPLIST_FILE = "网上书城/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/网上书城",
+				);
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-Objc",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "test-1.-1-OCtoSwift-DeleteAddCell";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -674,7 +950,6 @@
 		3D6DB6DA1D93933300CFCFBB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = TC9GBWB632;
 				INFOPLIST_FILE = "网上书城Tests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -687,7 +962,6 @@
 		3D6DB6DB1D93933300CFCFBB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = TC9GBWB632;
 				INFOPLIST_FILE = "网上书城Tests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -705,6 +979,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "---.----UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TEST_TARGET_NAME = "网上书城";
 			};
 			name = Debug;
@@ -717,6 +992,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "---.----UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TEST_TARGET_NAME = "网上书城";
 			};
 			name = Release;

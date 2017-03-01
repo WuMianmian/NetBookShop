@@ -16,8 +16,15 @@
 @implementation CategoryTableViewController
 
 - (void)viewDidLoad {
-    [super viewDidLoad];  
-//http://192.168.0.137:8080/NetBookShop/GetCategory
+    [super viewDidLoad];
+    
+    // 导航栏的那些事
+    [self.navigationController.navigationBar setTitleTextAttributes:
+     @{NSFontAttributeName:[UIFont systemFontOfSize:19],
+       NSForegroundColorAttributeName:RGB(40, 43, 53)}];
+    self.navigationController.navigationBar.tintColor  = RGB(40, 43, 53);
+    
+    //http://192.168.0.137:8080/NetBookShop/GetCategory
     ToolController *tool;
     tool = [[ToolController alloc]init];
     NSString* str = @"/GetCategory";
@@ -33,7 +40,7 @@
 //当选中这一行需要做的事情
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     NSUInteger row = [indexPath row];
-//    NSLog(@" you click this %lu row",(unsigned long)row);
+    //    NSLog(@" you click this %lu row",(unsigned long)row);
     
     //获取Default单例
     NSUserDefaults *CategoryDefault = [NSUserDefaults standardUserDefaults];
@@ -57,7 +64,7 @@
     NSDictionary *EachBooksData=[self.allDataArr objectAtIndex:row];
     
     cell.textLabel.text = [EachBooksData objectForKey:@"categoryName"];
-
+    
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     return cell;
 }

@@ -7,6 +7,7 @@
 //
 
 #import "RegisterViewController.h"
+#import "Contents.h"
 
 @interface RegisterViewController ()
 @property (weak, nonatomic) IBOutlet UITextField *txtUserId;
@@ -61,7 +62,7 @@
     }else if([self.StateCode isEqual:@"800"]){
         [self showAlertMessageWith:@"用户id必须为纯数字!"];
     }else if([self.StateCode isEqual:@"700"]){
-//        [self showAlertMessageWith:@"注册成功!"];
+        //        [self showAlertMessageWith:@"注册成功!"];
         //关闭模态视图
         [self dismissViewControllerAnimated:YES completion:nil];
     }
@@ -88,7 +89,7 @@
 -(NSDictionary *)getRegisterStateFor:(NSString *)UserId And:(NSString *)PassWord{
     NSDictionary *RegisterStateData =[NSDictionary alloc];
     NSError *error;
-    NSString *strUrl = [[NSString alloc]initWithFormat:@"http://192.168.0.137:8080/NetBookShop/Register?userId=%@&Password=%@",UserId,PassWord];
+    NSString *strUrl = [[NSString alloc]initWithFormat:@"%@/Register?userId=%@&Password=%@",Contents.getContentsUrl,UserId,PassWord];
     NSURL *url = [[NSURL alloc] initWithString:strUrl];
     NSURLRequest *request = [NSURLRequest requestWithURL:url];
     NSData *jsonData = [NSURLConnection sendSynchronousRequest:request returningResponse:nil error:nil];

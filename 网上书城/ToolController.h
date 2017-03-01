@@ -7,8 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MBProgressHUD.h"
 
-@interface ToolController : UIViewController
+@interface ToolController : UIViewController<MBProgressHUDDelegate>
 -(NSDictionary *)getDataWith:(NSString *)str;
 -(void)showAlertMessageWith:(NSString *)showMessageStr;
+-(void)ShowMessageWith:(NSString *)Message;
+-(void)ShowLoadingWith:(NSString *)Message;
 @end

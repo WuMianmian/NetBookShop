@@ -9,6 +9,7 @@
 #import "BooksLIstTableViewController.h"
 #import "BookListTableViewCell.h"
 #import "ToolController.h"
+#import "Contents.h"
 
 @interface BooksLIstTableViewController ()
 
@@ -21,9 +22,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    // 导航栏的那些事
+    [self.navigationController.navigationBar setTitleTextAttributes:
+     @{NSFontAttributeName:[UIFont systemFontOfSize:19],
+       NSForegroundColorAttributeName:RGB(40, 43, 53)}];
+    
+    self.navigationController.navigationBar.tintColor  = RGB(40, 43, 53);
+    
     NSUserDefaults *SearchDefault = [NSUserDefaults standardUserDefaults];
     NSString *SearchName = [SearchDefault objectForKey:@"SearchName"];
-//    NSLog(@"get this SearchName is %@",SearchName);
+    //    NSLog(@"get this SearchName is %@",SearchName);
     ToolController *tool;
     tool = [[ToolController alloc]init];
     NSString *str;
@@ -32,31 +40,22 @@
         str = @"/GetBooks";
     }else{
         //http://192.168.0.137:8080/NetBookShop/SearchBook?SearchName=自
-        str = [[NSString alloc] initWithFormat:@"/SearchBook?SearchName=%@",SearchName];
-//        NSLog(@"执行了！！！！！"); 
-//        str = @"/SearchBook?SearchName=:";
+        str = [[NSString alloc] initWithFormat:@"/SearchBook?SearchName=%@",SearchName];\
     }
     NSDictionary *dict = [tool getDataWith:str];
     self.allBooksDataArr = [dict objectForKey:@"productlist"];
-//    NSLog(@"allbookdataarr is  %@",self.allBooksDataArr);
+    //    NSLog(@"allbookdataarr is  %@",self.allBooksDataArr);
     if([self.allBooksDataArr count] == 0){
         [self showAlertMessageWith:@"没有查询到你需要的书本！"];
     }
 }
 
-//- (IBAction)btnBack:(id)sender {
-//    NSUserDefaults *SearchDefault = [NSUserDefaults standardUserDefaults];
-//    //移除UserDefaults中存储的用户信息
-//    [SearchDefault removeObjectForKey:@"SearchName"];
-//    [SearchDefault synchronize];
-//    //关闭模态视图
-//    [self dismissViewControllerAnimated:YES completion:nil];
-//}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
-     NSLog(@"the view is chose and here is be running !");
+    NSLog(@"the view is chose and here is be running !");
 }
 -(void)showAlertMessageWith:(NSString *)showMessageStr{
     UIAlertController *myAlertController = 	[UIAlertController alertControllerWithTitle:showMessageStr message:nil preferredStyle:UIAlertControllerStyleAlert];
@@ -82,7 +81,7 @@
 //当选中这一行需要做的事情
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     NSUInteger row = [indexPath row];
-//    NSLog(@" you click this %lu row",(unsigned long)row);
+    //    NSLog(@" you click this %lu row",(unsigned long)row);
     NSDictionary *EachBooksData=[self.allBooksDataArr objectAtIndex:row];
     //获取Default单例
     NSUserDefaults *bookISBNDefault = [NSUserDefaults standardUserDefaults];
@@ -106,12 +105,13 @@
     
     NSDictionary *EachBooksData=[self.allBooksDataArr objectAtIndex:row];
     
-    NSString *imgUrlStr =[NSString stringWithFormat:@"http://192.168.0.137:8080/NetBookShop/images/%@",[EachBooksData objectForKey:@"bookImageId"]];
+    NSString *imgUrlStr =[NSString stringWithFormat:@"%@/images/%@",Contents.getContentsUrl,[EachBooksData objectForKey:@"bookImageId"]];
+    //    NSLog(@"right is %@",imgUrlStr);
     UIImage *image = [UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:imgUrlStr]]];
     [cell.BookImageUrl setImage:image];
     
     cell.BookName.text = [EachBooksData objectForKey:@"bookChineseName"];
-//    NSLog(@"%@",[EachBooksData objectForKey:@"bookName"]);
+    //    NSLog(@"%@",[EachBooksData objectForKey:@"bookName"]);
     cell.BookPrice.text =[NSString localizedStringWithFormat:@"%@",[EachBooksData objectForKey:@"bookPrice"]];
     cell.BookWriter.text = [EachBooksData objectForKey:@"bookWriter"];
     cell.BookDescride.text = [EachBooksData objectForKey:@"bookDescribe"];

@@ -8,7 +8,8 @@
 
 #import "MyOrderListViewController.h"
 #import "MyOrderListTableViewCell.h"
-#import "LoginViewController.h"
+//#import "LoginViewController.h"
+#import "Contents.h"
 
 @interface MyOrderListViewController ()
 
@@ -46,7 +47,7 @@
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
     NSUserDefaults *userDefault = [NSUserDefaults standardUserDefaults];
     NSString *userId = [userDefault objectForKey:@"UserId"];
-//    NSLog(@"----------------------------->%lu",(unsigned long)[userId length]);
+    //    NSLog(@"----------------------------->%lu",(unsigned long)[userId length]);
     if(!(userId == nil)){
         self.UserId = userId;
         NSDictionary *getData = [self getOrderBy:self.UserId];
@@ -54,7 +55,7 @@
     }else{
         [self showAlertMessageWith:@"请先登录"];
     }
-
+    
     
 }
 
@@ -64,8 +65,8 @@
     [myAlertController addAction:[UIAlertAction actionWithTitle:@"ok" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
         //        NSLog(@"you click ok!");
         //点击按钮的响应事件；
-          [self dismissViewControllerAnimated:YES completion:nil];
-        [[LoginViewController alloc]init];
+        [self dismissViewControllerAnimated:YES completion:nil];
+        //        [[LoginViewController alloc]init];
     }]];
     [self presentViewController:myAlertController animated:true completion:nil];
 }
@@ -78,7 +79,7 @@
 -(NSDictionary *)getOrderBy:(NSString *)userId{
     NSDictionary *Data =[NSDictionary alloc];
     NSError *error;
-    NSString *strUrl = [[NSString alloc]initWithFormat:@"http://192.168.0.137:8080/NetBookShop/GetOrder?Id=%@",userId];
+    NSString *strUrl = [[NSString alloc]initWithFormat:@"%@/GetOrder?Id=%@",Contents.getContentsUrl,userId];
     NSURL *url = [[NSURL alloc] initWithString:strUrl];
     NSURLRequest *request = [NSURLRequest requestWithURL:url];
     NSData *jsonData = [NSURLConnection sendSynchronousRequest:request returningResponse:nil error:nil];
@@ -117,15 +118,15 @@
     
     NSDictionary *EachBooksData=[self.GetArr objectAtIndex:row];
     
-//    NSString *imgUrlStr =[NSString stringWithFormat:@"http://192.168.0.137:8080/NetBookShop/images/%@",[EachBooksData objectForKey:@"bookImageId"]];
-//    UIImage *image = [UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:imgUrlStr]]];
-//    [cell.BookImageUrl setImage:image];
+    //    NSString *imgUrlStr =[NSString stringWithFormat:@"http://192.168.0.137:8080/NetBookShop/images/%@",[EachBooksData objectForKey:@"bookImageId"]];
+    //    UIImage *image = [UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:imgUrlStr]]];
+    //    [cell.BookImageUrl setImage:image];
     
     cell.orderUserName.text = [EachBooksData objectForKey:@"orderUserName"];
     cell.orderUserAddress.text = [EachBooksData objectForKey:@"orderUserAddress"];
     cell.orderBookName.text = [EachBooksData objectForKey:@"orderBookName"];
     cell.orderTotal.text =[NSString localizedStringWithFormat:@"%@",[EachBooksData objectForKey:@"orderTotal"]];
-
+    
     
     
     
